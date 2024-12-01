@@ -1,4 +1,4 @@
-var host = "https://tchiphuong.github.io/iptv/";
+var host = "https://hoangcon1808.github.io/";
 var urlshls = [];
 $(document).ready(function () {
     const $ele = $("#tournament");
