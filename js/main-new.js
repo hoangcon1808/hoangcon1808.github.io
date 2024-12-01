@@ -1,4 +1,4 @@
-var host = "https://github.com/hoangcon1808/hoangcon1808.github.io/";
+var host = "https://hoangcon1808.github.io/";
 var urlshls = [];
 $(document).ready(function () {
     const $ele = $("#tournament");
