@@ -1,4 +1,4 @@
-var host = "https://tchiphuong.github.io/iptv/";
+var host = "https://hoangcon1808.github.io/";
 var urlshls = [];
 $(document).ready(function () {
     const $ele = $("#tournament");
@@ -783,13 +783,13 @@ function createPagination(resp) {
 }
 
 function getM3u8() {
-    let template = `#EXTINF:-1 group-title="Trực tiếp" tvg-id="vebomay1" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/vebotv.png",VEBOtv 1
+    let template = `#EXTINF:-1 group-title="Trực tiếp" tvg-id="vebomay1" tvg-logo="https://hoangcon1808.github.io/images/bg/vebotv.png",VEBOtv 1
                     #EXTVLCOPT:http-referrer=https://xem.bdhub.xyz
                     https://obevcimanyd179249207.thapcam.link/live/may1FHD/playlist.m3u8#|Referer=https://xem.bdhub.xyz`;
     let result = "";
     console.log(urlshls);
     for (let item of urlshls) {
-        result += `#EXTINF:-1 group-title="Trực tiếp" tvg-id="${item.id}" tvg-logo="https://tchiphuong.github.io/iptv/images/bg/vebotv.png",[${item.time}] - ${item.title}
+        result += `#EXTINF:-1 group-title="Trực tiếp" tvg-id="${item.id}" tvg-logo="https://hoangcon1808.github.io/images/bg/vebotv.png",[${item.time}] - ${item.title}
         #EXTVLCOPT:http-referrer=https://xem.bdhub.xyz
         ${item.url}#|Referer=https://xem.bdhub.xyz
         `;
