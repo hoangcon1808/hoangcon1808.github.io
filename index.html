@@ -306,7 +306,7 @@
                 selectedLeagueId: '',
                 leagueLogos: {},
                 async loadFixtures(selectedLeagueId) {
-                    let url = `https://live.vebo.xyz/api/match/live`;
+                    let url = `https://br.vebo.xyz/api/match/live`;
                     if (selectedLeagueId) {
                         url = `https://api.vebo.xyz/api/tournament/fixture/${selectedLeagueId}`;
                     } else if (this.selectedDate) {
